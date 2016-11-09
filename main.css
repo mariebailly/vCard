@@ -1,0 +1,55 @@
+html {
+	height: 100%;
+	font-size: 16px;
+}
+body {
+	height: 100%;
+	font-family: "Geneva", sans-serif;
+	color: #fefefe;
+	line-height: 1.84;
+	margin: 0;
+	overflow-x: hidden;	
+	/*background-color: #b3a59c;*/
+	height: 100%;
+	background: url(jardin-copie.png) no-repeat top left;
+	background-size: 100%;
+	/*overflow-y: hidden;*/
+}
+h1 {
+	font-size: 4.5em;
+	margin-bottom: 10px;
+}
+p {
+	display: inline-block;
+	width: 70%;
+	font-size: 1.1em;
+}
+img {
+	margin-right: 40px;
+}
+.content {
+	width: 800px;
+	margin: 0 auto;
+	margin-left: 15%;
+	margin-top: 7.5em;
+	text-shadow: 1px 0px 0px rgba(0,0,0,.6);
+}
+.profil {
+	width: 150px;
+	border-radius: 20px;
+	float: left;
+}
+a img {
+	margin-top: 20px;
+	height: 40px;	
+}
+a img:hover, a img:focus {
+	transform: scale(2);
+}
+
+
+
+
+
+
+
