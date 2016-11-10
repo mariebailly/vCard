@@ -1,6 +1,6 @@
 html {
 	height: 100%;
-	font-size: 16px;
+	font-size: 16px;/* automatique */
 }
 body {
 	height: 100%;
@@ -10,19 +10,20 @@ body {
 	margin: 0;
 	overflow-x: hidden;	
 	/*background-color: #b3a59c;*/
+	/* nettoyer les documents avant de faire une remise */
 	height: 100%;
 	background: url(jardin-copie.png) no-repeat top left;
-	background-size: 100%;
+	background-size: 100%; /* cover ou contain plutôt */
 	/*overflow-y: hidden;*/
 }
 h1 {
-	font-size: 4.5em;
+	font-size: 4.5em;/* pourquoi en em? */
 	margin-bottom: 10px;
 }
 p {
-	display: inline-block;
+	display: inline-block;/* pourquoi? */
 	width: 70%;
-	font-size: 1.1em;
+	font-size: 1.1em;/* pas la taille du body? */
 }
 img {
 	margin-right: 40px;
@@ -30,7 +31,7 @@ img {
 .content {
 	width: 800px;
 	margin: 0 auto;
-	margin-left: 15%;
+	margin-left: 15%;/* tu mélanges un peu tout ici, auto ou 15%? */
 	margin-top: 7.5em;
 	text-shadow: 1px 0px 0px rgba(0,0,0,.6);
 }
